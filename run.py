@@ -7,8 +7,6 @@ app.config.from_object(Config)
 
 db = SQLAlchemy(app)
 
-from app.models import Customer
-
 
 if __name__  == "__main__":
     db.create_all()
